@@ -92,3 +92,33 @@ footer {
 .download-table a:hover {
   text-decoration: underline;
 }
+
+/* Aggiungi questa parte alla fine del CSS */
+@media (max-width: 768px) {
+  /* La tabella diventa scrollabile orizzontalmente sui dispositivi più piccoli */
+  .download-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+  }
+
+  /* Adattamento per i titoli */
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Ridurre un po' la spaziatura nei titoli */
+  header p {
+    font-size: 1rem;
+  }
+
+  /* Tabella: i padding sono ridotti per adattarsi meglio a schermi piccoli */
+  .download-table th, .download-table td {
+    padding: 0.5rem;
+  }
+
+  /* Il testo del corpo viene ridimensionato per una visualizzazione migliore su mobile */
+  body {
+    font-size: 1rem;
+  }
+}
