@@ -64,3 +64,31 @@ footer {
   font-size: 0.9rem;
   color: #80deea;
 }
+
+.download-table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  color: #e0f7fa;
+}
+
+.download-table th, .download-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #00e5ff33;
+  text-align: left;
+}
+
+.download-table th {
+  background-color: #00e5ff22;
+  color: #00e5ff;
+}
+
+.download-table a {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-table a:hover {
+  text-decoration: underline;
+}
